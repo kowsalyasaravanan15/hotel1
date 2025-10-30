@@ -27,8 +27,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/pages" className="hover:text-green-700 transition">
-              PAGES
+            <Link href="/about" className="hover:text-green-700 transition">
+              ABout
             </Link>
           </li>
           <li>

@@ -13,7 +13,7 @@ export default function HeroSection() {
       
 
       {/* Hero Content */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 md:px-0 bg-black/40">
+      <div data-aos="fade-down" className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 md:px-0 bg-black/40">
         <h2 className="text-3xl md:text-6xl font-serif font-light mb-3">
           Boutique Mountain Chalet
         </h2>
@@ -26,7 +26,7 @@ export default function HeroSection() {
       </div>
 
       {/* Booking Bar */}
-      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 
+      <div data-aos="fade-down" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 
                       w-[90%] md:w-3/4 bg-white text-gray-900 rounded-xl 
                       shadow-lg flex flex-col md:flex-row items-center justify-between 
                       p-6 md:p-4 space-y-4 md:space-y-0 z-10">
