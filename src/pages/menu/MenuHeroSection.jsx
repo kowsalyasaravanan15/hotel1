@@ -20,7 +20,7 @@ const MenuHeroSection = () => {
           Our Menu
         </h1>
         <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-          Tuesday—Sunday, 12pm–8pm
+          Monday—Sunday, 10am–11pm
         </p>
       </div>
     </section>

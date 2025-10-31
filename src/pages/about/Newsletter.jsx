@@ -13,7 +13,7 @@ const NewsletterAndSocialSection = () => {
           {/* Left Text Content */}
           <div className="max-w-md lg:max-w-none mb-8 lg:mb-0 lg:mr-12">
             <p className="text-xs uppercase tracking-widest text-gray-600 mb-2">
-              Stay tuned with Cozystay
+              Stay tuned with Kingsukh Guest House
             </p>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-gray-800 leading-snug">
               Sign up for our newsletter to receive our news, deals and special offers.

@@ -10,20 +10,20 @@ const menuData = {
       image: '/a1.png', // Placeholder path
       title: 'Purple Corn Tostada',
       description: 'Ricotta, goat cheese, beetroot and datterini.',
-      price: 36,
+      price: 360,
     },
     {
       image: '/a2.png', // Placeholder path
       title: "Bruno's Scribble",
       description: 'Culatello, Spalla Cotta, Mortadella, Culacciona.',
-      price: 30,
+      price: 300,
       tag: 'ORIGINAL',
     },
     {
       image: '/a3.png', // Placeholder path
       title: 'Fresh Oysters Dozen',
       description: 'Our selection of fresh oysters, limes.',
-      price: 59,
+      price: 590,
     },
   ],
   mainCourses: [
@@ -31,45 +31,45 @@ const menuData = {
       image: 'm1.jpg', // Placeholder path
       title: 'Crispy Skin Chicken',
       description: 'Ricotta, radicchio, prosciutto salad, cabernet.',
-      price: 33,
+      price: 330,
       tag: 'CHEF RECOMMENDS',
     },
     {
       image: '/m2.png',// Placeholder path
       title: 'Flank Steak',
       description: 'Served medium rare, salad, mushroom sauce.',
-      price: 35,
+      price: 350,
     },
     {
       image: 'm3.png', // Placeholder path
       title: 'Alaskan King Crab',
       description: 'Truffle mash, pepper sauce.',
-      price: 58,
+      price: 580,
       tag: 'POPULAR',
     },
     {
       image: '/m4.png', // Placeholder path
       title: 'Filet Mignon',
       description: 'Atlantic cod fillet, chips, salad, tartare, lemon.',
-      price: 33,
+      price: 300,
     },
     {
       image: '/m5.png', // Placeholder path
       title: 'Fish & Chips',
       description: 'Served medium rare, salad, mushroom sauce.',
-      price: 35,
+      price: 350,
     },
     {
       image: '/m1.jpg', // Placeholder path
       title: 'Beefsteak Tomato & Onion',
       description: 'Ricotta, radicchio, prosciutto salad, cabernet.',
-      price: 33,
+      price: 330,
     },
     {
       image: '/a1.png', // Placeholder path
       title: 'Ebony Fillet Steak',
       description: 'Truffle mash, pepper sauce.',
-      price: 58,
+      price: 580,
     },
   ],
   sideDishes: [
@@ -77,25 +77,25 @@ const menuData = {
       image: '/s1.png', // Placeholder path
       title: 'Wild Mushroom Arancini',
       description: 'Porcini puree, parmesan, basil.',
-      price: 18,
+      price: 180,
     },
     {
       image: '/s2.png', // Placeholder path
       title: 'Purple Corn Tostada',
       description: 'Ricotta, goat cheese, beetroot and datterini.',
-      price: 36,
+      price: 360,
     },
     {
       image: '/s3.png', // Placeholder path
       title: 'Grilled Octopus',
       description: 'Culatello, Spalla Cotta, Mortadella, Culacciona.',
-      price: 30,
+      price: 300,
     },
     {
       image: '/s4.png', // Placeholder path
       title: 'Fresh Oysters Dozen',
       description: 'Our selection of fresh oysters, limes.',
-      price: 59,
+      price: 590,
     },
   ],
 };
@@ -157,7 +157,7 @@ const MenuItem = ({ item }) => {
 
           {/* Price */}
           <p className="text-base md:text-lg font-serif text-[#D1B174] font-bold pl-2 flex-shrink-0">
-            ${item.price}
+            ₹{item.price}
           </p>
         </div>
         
@@ -190,7 +190,7 @@ const RestaurantMenu = () => {
             {/* Appetizers List */}
             <div>
               {menuData.appetizers.map((item, index) => (
-                <MenuItem key={`app-${index}`} item={item} />
+                <MenuItem key={`app-₹{index}`} item={item} />
               ))}
             </div>
 
@@ -208,7 +208,7 @@ const RestaurantMenu = () => {
             {/* Side Dishes List */}
             <div>
               {menuData.sideDishes.map((item, index) => (
-                <MenuItem key={`side-${index}`} item={item} />
+                <MenuItem key={`side-₹{index}`} item={item} />
               ))}
             </div>
           </div>
@@ -225,7 +225,7 @@ const RestaurantMenu = () => {
             {/* Main Courses List */}
             <div>
               {menuData.mainCourses.map((item, index) => (
-                <MenuItem key={`main-${index}`} item={item} />
+                <MenuItem key={`main-₹{index}`} item={item} />
               ))}
             </div>
 

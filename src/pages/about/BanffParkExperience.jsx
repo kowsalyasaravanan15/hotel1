@@ -45,16 +45,22 @@ const BanffParkExperience = () => {
 
       {/* Section 3: Count-Up Section */}
       <section
-        className="relative py-20 md:py-32 px-4 sm:px-6 lg:px-8 text-white text-center bg-cover bg-center mt-12"
+        className="relative py-20 md:py-50 px-4 sm:px-6 lg:px-5 text-white text-center bg-cover bg-center mt-0"
         style={{ backgroundImage: "url('/ayodhya.webp')" }} // Placeholder
       >
-        <div className="absolute inset-0 bg-black opacity-50"></div> {/* Darker overlay */}
+        <div className="absolute inset-0 bg-black  opacity-50"></div>
 
         <div className="relative z-10 flex flex-col items-center max-w-4xl mx-auto">
-          <p className="text-2xl font-bold uppercase tracking-widest text-gray-200 mb-6">
-            Spend your comfortable holiday in the heart of the beautiful forest
+          <p className="text-5xl font-'Poppins', sans-serif; uppercase tracking-widest text-gray-200 mb-6">
+            The Best Holidays Start Here!
           </p>
-          <div className="flex flex-wrap justify-center gap-8 md:gap-16">
+
+          <p className="text-xl font-span; uppercase tracking-widest text-gray-200 mb-6">
+          Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of Purulia, creating memories that linger long after your stay.
+          </p>
+
+{/*         
+          {/* <div className="flex flex-wrap justify-center gap-8 md:gap-16">
             <div className="text-center">
               <span className="block text-4xl md:text-5xl font-span mb-1">30</span>
               <span className="block text-sm uppercase tracking-wider text-gray-200">Rooms</span>
@@ -70,8 +76,8 @@ const BanffParkExperience = () => {
             <div className="text-center">
               <span className="block text-4xl md:text-5xl font-span mb-1">9</span>
               <span className="block text-sm uppercase tracking-wider text-gray-200">Suites</span>
-            </div>
-          </div>
+            </div> */} */
+          {/* </div> */}
         </div>
       </section>
 

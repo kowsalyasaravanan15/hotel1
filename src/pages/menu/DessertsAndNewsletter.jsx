@@ -6,17 +6,17 @@ import { Send, Check } from 'lucide-react'; // For the newsletter form
 const dessertsDrinksData = [
   // Left Column Data
   [
-    { name: "Chocoklate Torte", price: 16, description: "Dark choco mousse, ganache and almond" },
-    { name: "Tiramisu Glass", price: 18, description: "Ladyfinger, cofee, kahlua, mascarpone, chocolate" },
-    { name: "Baked Pear Pie", price: 19, description: "Crispy all butter crust, cream cheese" },
-    { name: "Butter Cake", price: 16, description: "Rich vanilla pound cake, ganache" },
+    { name: "Chocoklate Torte", price: 100, description: "Dark choco mousse, ganache and almond" },
+    { name: "Tiramisu Glass", price: 150, description: "Ladyfinger, cofee, kahlua, mascarpone, chocolate" },
+    { name: "Baked Pear Pie", price: 170, description: "Crispy all butter crust, cream cheese" },
+    { name: "Butter Cake", price: 150, description: "Rich vanilla pound cake, ganache" },
   ],
   // Right Column Data
   [
-    { name: "Cocktail Mojito", price: 16, description: "White rum, lime juice, pineapple, soda" },
-    { name: "Pineapple Whisky Cup", price: 16, description: "Whisky, vanilla bean, lemon juice, ginger" },
-    { name: "Lemon Gin", price: 17, description: "Gin, lemon juice, strawberry, mint" },
-    { name: "Red Tea Latte", price: 16, description: "Steamed milk and tea" },
+    { name: "Cocktail Mojito", price: 150, description: "White rum, lime juice, pineapple, soda" },
+    { name: "Pineapple Whisky Cup", price: 150, description: "Whisky, vanilla bean, lemon juice, ginger" },
+    { name: "Lemon Gin", price: 170, description: "Gin, lemon juice, strawberry, mint" },
+    { name: "Red Tea Latte", price: 160, description: "Steamed milk and tea" },
   ],
 ];
 
@@ -27,7 +27,7 @@ const DessertsAndNewsletterSection = () => {
       <div className="flex justify-between items-end pb-1">
   <span className="text-gray-800 text-lg md:text-xl font-medium font-serif">{name}</span>
   <div className="flex-grow border-b border-dotted border-gray-300 mx-2"></div>
-  <span className="text-gray-800 text-lg md:text-xl font-bold">${price}</span>
+  <span className="text-gray-800 text-lg md:text-xl font-bold">₹{price}</span>
 </div>
 <p className="text-sm md:text-base text-gray-500 mt-1">{description}</p>
 
@@ -77,7 +77,7 @@ const DessertsAndNewsletterSection = () => {
             {/* Left Text Content */}
             <div className="max-w-md lg:max-w-none mb-8 lg:mb-0 lg:mr-12">
               <p className="text-xs uppercase tracking-widest text-gray-600 mb-2">
-                STAY TUNED WITH COZYSTAY
+                Stay tuned with Kingsukh Guest House
               </p>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-gray-800 leading-snug">
                 Sign up for our newsletter to receive our new, deals and special offers.
