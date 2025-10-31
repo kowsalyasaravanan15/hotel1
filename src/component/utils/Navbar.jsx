@@ -114,7 +114,7 @@ export default function Navbar() {
             <Link href="/blog" onClick={() => setMenuOpen(false)}>
               BLOG
             </Link>
-            <li className="text-gray-600">Tel: +41 222 345 67 88</li>
+            <li className="text-gray-600">Tel: ++91 9007062180</li>
             <Link
               href="/enquiry"
               onClick={() => setMenuOpen(false)}

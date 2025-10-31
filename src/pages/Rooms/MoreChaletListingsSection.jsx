@@ -11,7 +11,7 @@ const moreChaletData = [
     beds: 3,
     bathrooms: 2,
     description: "The dark wood panelling and furnishings, red-draped four-poster bed, and black stone bathroom evoke the charm of a secluded Sierra Nevada.",
-    price: '$499',
+    price: '5000',
     imageUrl: '/luxury.jpg', // Placeholder for the top-left image
     isSale: null, 
   },
@@ -22,7 +22,7 @@ const moreChaletData = [
     beds: 2,
     bathrooms: 2,
     description: "The dark wood panelling and furnishings, red-draped four-poster bed, and black stone bathroom evoke the charm of a secluded Sierra Nevada.",
-    price: '$450',
+    price: '5000',
     imageUrl: '/meadow.jpg', // Placeholder for the top-right image
     isSale: '400', // Example sale price
   },
@@ -33,7 +33,7 @@ const moreChaletData = [
     beds: 4, // Example
     bathrooms: 3, // Example
     description: "Experience breathtaking views from this spacious lodge, featuring modern amenities and rustic charm for an unforgettable getaway.",
-    price: '$650',
+    price: '7000',
     imageUrl: '/overlook.jpg', // Placeholder for bottom-left image
     isSale: null, 
   },
@@ -44,7 +44,7 @@ const moreChaletData = [
     beds: 2, // Example
     bathrooms: 1, // Example
     description: "A cozy lakeside retreat offering serene views and comfortable living, perfect for a peaceful escape with loved ones.",
-    price: '$380',
+    price: '4000',
     imageUrl: '/small.jpg', // Placeholder for bottom-right image
     isSale: '350', // Example sale price
   },

@@ -13,13 +13,13 @@ const AboutHotelHeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-2xl mx-auto">
-        <p className="uppercase tracking-widest text-xs sm:text-sm mb-3 opacity-80">
-          AN ICONIC HOTEL SINCE 1998
-        </p>
+        {/* <p className="uppercase tracking-widest text-xs sm:text-sm mb-3 opacity-80">
+          {/* AN ICONIC HOTEL SINCE 1998
+        </p> */} 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-light leading-snug mb-6">
           About The Hotel
         </h1>
-        <p className="text-base sm:text-lg text-gray-200 leading-relaxed">
+        <p className="text-2xl sm:text-3xl text-gray-200 leading-relaxed">
           The finest haven of warmth, tranquility and restoration
         </p>
       </div>

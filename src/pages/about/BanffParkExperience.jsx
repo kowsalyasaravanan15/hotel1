@@ -51,24 +51,24 @@ const BanffParkExperience = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div> {/* Darker overlay */}
 
         <div className="relative z-10 flex flex-col items-center max-w-4xl mx-auto">
-          <p className="text-sm uppercase tracking-widest text-gray-200 mb-6">
+          <p className="text-2xl font-bold uppercase tracking-widest text-gray-200 mb-6">
             Spend your comfortable holiday in the heart of the beautiful forest
           </p>
           <div className="flex flex-wrap justify-center gap-8 md:gap-16">
             <div className="text-center">
-              <span className="block text-4xl md:text-5xl font-bold mb-1">72</span>
+              <span className="block text-4xl md:text-5xl font-span mb-1">30</span>
               <span className="block text-sm uppercase tracking-wider text-gray-200">Rooms</span>
             </div>
             <div className="text-center">
-              <span className="block text-4xl md:text-5xl font-bold mb-1">20</span>
+              <span className="block text-4xl md:text-5xl font-span mb-1">10</span>
               <span className="block text-sm uppercase tracking-wider text-gray-200">Chalets</span>
             </div>
             <div className="text-center">
-              <span className="block text-4xl md:text-5xl font-bold mb-1">12</span>
+              <span className="block text-4xl md:text-5xl font-span mb-1">12</span>
               <span className="block text-sm uppercase tracking-wider text-gray-200">Lodges</span>
             </div>
             <div className="text-center">
-              <span className="block text-4xl md:text-5xl font-bold mb-1">9</span>
+              <span className="block text-4xl md:text-5xl font-span mb-1">9</span>
               <span className="block text-sm uppercase tracking-wider text-gray-200">Suites</span>
             </div>
           </div>

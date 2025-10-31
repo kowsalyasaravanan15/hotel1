@@ -8,7 +8,7 @@ const activities = [
     category: 'Outdoors',
     description:
       'With over 1,600 kilometres (994 miles) of trails, Banff National Park offers adventurers some of the best hiking on the planet.',
-    price: '$120 / person',
+    price: '1000 / person',
     image: '/mountain.jpg',
   },
   {
@@ -16,7 +16,7 @@ const activities = [
     category: 'Nature',
      description:
        'Banff National Park’s biggest lake allows you to paddle for miles and enjoy breathtaking views.',
-    price: '$120 / person',
+    price: '1000 / person',
     image: '/padding.jpg',
   },
   {
@@ -24,7 +24,7 @@ const activities = [
     category: 'Outdoors',
     description:
       'Banff offers a range of camping spots allowing you to experience all of this most gorgeous park’s outdoor splendour.',
-    price: '$120 / person',
+    price: '1000 / person',
     image: '/campign.jpg',
   },
 ];

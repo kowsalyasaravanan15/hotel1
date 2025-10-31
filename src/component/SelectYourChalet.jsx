@@ -4,7 +4,7 @@ import { Bed, Users, Ruler } from "lucide-react";
 const chalets = [
   {
     title: "Meadow Chalet",
-    price: "$299 / NIGHT",
+    price: "2500 / NIGHT",
     area: "90 m²",
     guests: "5 Guests",
     beds: "3 Beds",
@@ -15,7 +15,7 @@ const chalets = [
   },
   {
     title: "Family Suite",
-    price: "$299 / NIGHT",
+    price: "3000 / NIGHT",
     area: "55 m²",
     guests: "2 Guests",
     beds: "2 Beds",
@@ -26,7 +26,7 @@ const chalets = [
   },
   {
     title: "Deluxe Room",
-    price: "$199 / NIGHT",
+    price: "1500 / NIGHT",
     area: "28 m²",
     guests: "2 Guests",
     beds: "2 Beds",
@@ -37,7 +37,7 @@ const chalets = [
   },
   {
     title: "Luxury Chalet",
-    price: "$199 / NIGHT",
+    price: "2500 / NIGHT",
     area: "28 m²",
     guests: "2 Guests",
     beds: "2 Beds",
@@ -48,7 +48,7 @@ const chalets = [
   },
   {
     title: "Deluxe Suite",
-    price: "$199 / NIGHT",
+    price: "1500 / NIGHT",
     area: "28 m²",
     guests: "2 Guests",
     beds: "2 Beds",
