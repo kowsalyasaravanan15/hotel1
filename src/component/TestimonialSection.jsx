@@ -1,7 +1,7 @@
 // components/TestimonialSection.jsx
 "use client";
 import Image from "next/image";
-import backgroundImage from "../public/testimonial-bg.jpg"; // Replace with your image path
+import backgroundImage from "../public/sandel.png"; // Replace with your image path
 
 const TestimonialSection = () => {
   return (

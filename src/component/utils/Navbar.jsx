@@ -11,7 +11,7 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-16 py-4 text-gray-900">
         {/* Logo */}
         <Link href="/" className="text-2xl font-serif tracking-wide text-green-900">
-          COZYSTAY
+         KINGSUKH GUEST HOUSE
         </Link>
 
         {/* Desktop Menu */}
@@ -28,7 +28,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="/about" className="hover:text-green-700 transition">
-              ABout
+              ABOUT
             </Link>
           </li>
           <li>
@@ -36,7 +36,18 @@ export default function Navbar() {
               BLOG
             </Link>
           </li>
-          <li className="text-gray-600 text-sm">Tel: +41 222 345 67 88</li>
+          <li>
+            <Link href="/menu" className="hover:text-green-700 transition">
+              MENU
+            </Link>
+          </li>
+          <li>
+            <Link href="/contact" className="hover:text-green-700 transition">
+              CONTACT
+            </Link>
+          </li>
+          
+          <li className="text-gray-600 text-sm">Tel: +91 9007062180</li>
           <Link
             href="/enquiry"
             className="bg-green-800 text-white px-4 py-2 rounded-md hover:bg-green-700 transition"

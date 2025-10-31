@@ -8,17 +8,19 @@ export default function HeroSection() {
 
   return (
     <div className="relative min-h-screen bg-cover bg-center text-white" 
-      style={{ backgroundImage: "url('/chalet-bg.jpg')" }} // replace with your image
+      style={{ backgroundImage: "url('/baranti.webp')" }} // replace with your image
     >
       
 
       {/* Hero Content */}
       <div data-aos="fade-down" className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 md:px-0 bg-black/40">
-        <h2 className="text-3xl md:text-6xl font-serif font-light mb-3">
-          Boutique Mountain Chalet
-        </h2>
+        <h4 className="text-3xl md:text-6xl font-serif font-light mb-7">
+          kingsukh Guest House
+        </h4>
         <p className="text-sm md:text-base mb-6 text-gray-200">
-          The forest paradise of warmth, tranquility and restoration
+          Make Yourself At Home
+In Our Guest House.
+
         </p>
         <button className="bg-green-800 text-white px-6 py-3 rounded-md hover:bg-green-700 transition">
           Enquire Now

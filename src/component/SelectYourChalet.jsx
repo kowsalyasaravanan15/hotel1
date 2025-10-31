@@ -4,7 +4,7 @@ import { Bed, Users, Ruler } from "lucide-react";
 const chalets = [
   {
     title: "Meadow Chalet",
-    price: "FROM $499",
+    price: "$299 / NIGHT",
     area: "90 m²",
     guests: "5 Guests",
     beds: "3 Beds",

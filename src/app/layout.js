@@ -5,8 +5,10 @@ import CozyStayFooter from "@/component/utils/CozyStayFooter";
 
 
 
+
 export default function RootLayout({ children }) {
   return (
+
     <html lang="en">
       <body
       >

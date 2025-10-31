@@ -12,15 +12,15 @@ const CozyStayFooter = () => {
     "Our Story",
     "Contact Us",
     "Premium Services",
-    "Careers",
+    // "Careers",
     "Blog",
   ];
   const experienceLinks = [
-    "Dining",
-    "Spa & Wellness",
-    "Local Activities",
-    "Meetings",
-    "Our Menu",
+    "Browse Destination",
+    "Special Offers & Packages",
+    "Room Types",
+    "Customer Reviews & Ratings",
+    "Travel Tips & Guides",
   ];
 
   // Background image (optional)
@@ -47,12 +47,11 @@ const CozyStayFooter = () => {
           {/* === COZYSTAY INFO === */}
           <div className="space-y-4">
             <h3 className="text-2xl font-serif tracking-widest">
-              <span className="font-bold">COZYSTAY</span>
+              <span className="font-span">Kingsukh Guest House</span>
             </h3>
             <p className="text-sm text-gray-300 leading-relaxed max-w-sm">
-              Founded in 1998, CozyStay Resort is nestled in the hills of
-              Zermatt, offering breathtaking views of the Swiss Alps.
-              Experience warmth, tranquility, and luxury with us.
+              Discover a world of comfort, luxury, and adventure as you explore our curated selection of hotels, making every moment of your getaway truly extraordinary.
+
             </p>
 
             {/* Social Media Icons */}
@@ -74,7 +73,7 @@ const CozyStayFooter = () => {
 
           {/* === About Us Links === */}
           <div>
-            <h4 className="text-lg font-serif mb-4 tracking-wider">About Us</h4>
+            <h5 className="text-lg font-serif mb-4 tracking-wider">About Us</h5>
             <ul className="space-y-2 text-sm text-gray-300">
               {aboutLinks.map((link, index) => (
                 <li key={index}>
@@ -112,24 +111,24 @@ const CozyStayFooter = () => {
             <div className="space-y-4 text-sm text-gray-300">
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
-                <span>Gudino 25, 6900, Lugano, Switzerland</span>
+                <span>Beside Barshal Water Tank, Manpur,Barhanti,West Bengal 723156</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 flex-shrink-0" />
                 <a
-                  href="mailto:info@cozystay.com"
+                  href="mailto:kkghosh0099@gmail.com"
                   className="hover:text-white transition-colors"
                 >
-                  info@cozystay.com
+                  kkghosh0099@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 flex-shrink-0" />
                 <a
-                  href="tel:+41223456788"
+                  href="tel:+91 9007062180"
                   className="hover:text-white transition-colors"
                 >
-                  +41 22 345 67 88
+                  +91 9007062180
                 </a>
               </div>
             </div>

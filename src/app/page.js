@@ -12,12 +12,13 @@ import CozyStayFooter from '@/component/utils/CozyStayFooter'
 // import { abortOnSynchronousPlatformIOAccess } from 'next/dist/server/app-render/dynamic-rendering'
 
 function Home() {
+
   return (
     <>
       <HeroSection />
       <ThreePanelFeature />
-      <SelectYourChalet/>
-      <ServicesSection/>
+      <SelectYourChalet />
+      <ServicesSection />
       <ActivitiesSection />
       <NewsletterSection />
 
