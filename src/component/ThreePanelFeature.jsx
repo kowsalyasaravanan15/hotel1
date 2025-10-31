@@ -4,7 +4,7 @@ import React from 'react';
 const ThreePanelFeature = () => {
   const imageUrls = {
     left: "/house 2.png",
-    center:"/center.jpg",
+    center:"/hero.jpg.jpg",
     right: "/river.png"
   };
 

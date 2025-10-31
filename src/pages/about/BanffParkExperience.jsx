@@ -33,7 +33,7 @@ const BanffParkExperience = () => {
           {/* Image 2 */}
           <div 
             className="h-96 w-full bg-gray-300 bg-cover bg-center rounded-sm"
-            style={{ backgroundImage: "url('/pot.jpg')" }} // Placeholder
+            style={{ backgroundImage: "url('/mithonDam.webp')" }} // Placeholder
           ></div>
           {/* Image 3 */}
           <div 
