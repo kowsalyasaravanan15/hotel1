@@ -15,7 +15,7 @@ const RoomExploreBanner = () => {
     // that assumes the image (or a suitable background) is applied to the section
     // where this component is used, or simulate the dark wood / window effect.
     // For this example, we'll focus on the *text overlay and layout*.
-    <div className="relative h-[60vh] md:h-[70vh] flex items-center justify-center text-white bg-cover bg-center"
+    <div className="relative h-[50vh] md:h-[50vh] flex items-center justify-center text-white bg-cover bg-center"
          style={{ backgroundImage: "url('/wood.jpg')" }}>
       
       {/* Optional: Add a subtle overlay for better text readability, simulating the image's dark tone */}
@@ -26,7 +26,7 @@ const RoomExploreBanner = () => {
         
         {/* Welcome Text/Small Heading */}
         <p className="text-sm tracking-widest uppercase font-light mb-2 text-gray-200">
-          WELCOME TO COZYSTAY MOUNTAIN CHALET
+          WELCOME TO KINGSUKH GUEST HOUSE
         </p>
         
         {/* Main Heading */}
@@ -36,7 +36,7 @@ const RoomExploreBanner = () => {
         
         {/* Subheading */}
         <p className="text-base sm:text-lg font-light text-gray-300">
-          Every Room is Unique at CozyStay Mountain Chalet
+          Every Room is Unique at Kingsukh Guest House
         </p>
         
         {/* Optional: Placeholder for the down-arrow element shown in the design */}

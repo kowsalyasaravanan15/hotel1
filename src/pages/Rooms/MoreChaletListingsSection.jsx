@@ -24,7 +24,7 @@ const moreChaletData = [
     description: "The dark wood panelling and furnishings, red-draped four-poster bed, and black stone bathroom evoke the charm of a secluded Sierra Nevada.",
     price: '5000',
     imageUrl: '/meadow.jpg', // Placeholder for the top-right image
-    isSale: '400', // Example sale price
+    isSale: null, // Example sale price
   },
   {
     title: "Overlook Lodge",
@@ -43,10 +43,10 @@ const moreChaletData = [
     guests: 4, // Example
     beds: 2, // Example
     bathrooms: 1, // Example
-    description: "A cozy lakeside retreat offering serene views and comfortable living, perfect for a peaceful escape with loved ones.",
+    description: "A lakeside retreat offering serene views and comfortable living, perfect for a peaceful escape with loved ones.",
     price: '4000',
     imageUrl: '/small.jpg', // Placeholder for bottom-right image
-    isSale: '350', // Example sale price
+    isSale: null, // Example sale price
   },
 ];
 

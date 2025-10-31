@@ -69,7 +69,7 @@ const RoomShowcase = () => {
         <div className="absolute inset-0 bg-black opacity-40"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto">
           <p className="text-sm tracking-widest uppercase font-light mb-2 text-gray-200">
-            WELCOME TO COZYSTAY MOUNTAIN CHALET
+            WELCOME TO KINGSUKH GUEST HOUSE 
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold mb-4">
             Quaint and Comfortable Stay Experience
