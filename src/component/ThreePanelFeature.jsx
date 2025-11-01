@@ -27,7 +27,7 @@ const ThreePanelFeature = () => {
 {/* inga opacity change irruku */}
             <div className="absolute inset-0 bg- bg-opacity-100 flex flex-col items-center justify-center text-center px-6 border-y-2 border-x-2 border-opacity-70 border-yellow-700">
               <p className="text-xs uppercase tracking-widest mb-3 font-serif">
-                Welcome to CozyStay Resort
+                Welcome to KINGSUKH GUEST HOUSE
               </p>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif leading-tight mb-8 font-light">
                 In the Heart of Banff Park, Outstanding Views

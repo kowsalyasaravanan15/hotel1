@@ -8,7 +8,7 @@ const activities = [
     category: 'Outdoors',
     description:
       'With over 1,600 kilometres (994 miles) of trails, Banff National Park offers adventurers some of the best hiking on the planet.',
-    price: '1000 / person',
+    price: '₹1000 / person',
     image: '/mountain.jpg',
   },
   {
@@ -16,7 +16,7 @@ const activities = [
     category: 'Nature',
      description:
        'Banff National Park’s biggest lake allows you to paddle for miles and enjoy breathtaking views.',
-    price: '1000 / person',
+    price: '₹1000 / person',
     image: '/padding.jpg',
   },
   {
@@ -24,14 +24,14 @@ const activities = [
     category: 'Outdoors',
     description:
       'Banff offers a range of camping spots allowing you to experience all of this most gorgeous park’s outdoor splendour.',
-    price: '1000 / person',
+    price: '₹1000 / person',
     image: '/campign.jpg',
   },
 ];
 
 export default function ActivitiesSection() {
   return (
-    <section className="bg-gray-100 py-16 px-4 md:px-8 lg:px-16 text-center">
+    <section className="bg-white -100 py-16 px-4 md:px-8 lg:px-16 text-center">
       <p className="text-sm uppercase tracking-wide text-gray-600 mb-2">
         More than just mountain view
       </p>
@@ -52,7 +52,7 @@ export default function ActivitiesSection() {
                 fill
                 className="object-cover"
               />
-              <span className="absolute top-2 left-2 bg-white text-xs px-2 py-1 font-medium">
+              <span className="absolute top-2 left-2 bg-black text-xs px-2 py-1 font-medium">
                 {activity.price}
               </span>
             </div>

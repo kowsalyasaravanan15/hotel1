@@ -147,7 +147,7 @@ const CozyStayFooter = () => {
       <div className="bg-black bg-opacity-30 border-t border-white border-opacity-10 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-400">
           <p className="mb-2 md:mb-0 text-center md:text-left">
-            © Copyright CozyStay WordPress Theme for Hotel Booking
+            © Copyright  KINGSUKH GUEST HOUSE WordPress Theme for Hotel Booking
           </p>
           <div className="flex space-x-4">
             <a href="#" className="hover:text-white transition-colors">

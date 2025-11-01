@@ -8,7 +8,7 @@ export default function HeroSection() {
 
   return (
     <div className="relative min-h-screen bg-cover bg-center text-white" 
-      style={{ backgroundImage: "url('/hero.jpg.jpg')" }} // replace with your image
+      style={{ backgroundImage: "url('/ayodhya.webp')" }} // replace with your image
     >
       
 

@@ -17,7 +17,7 @@ const blogPosts = [
     date: 'AUG 12',
     category: 'DINING, NEWS',
     title: 'New Chef and Spring Special Menu',
-    imageUrl: '/images/blog-chef-menu.jpg', // Placeholder
+    imageUrl: '/b2.jpg', // Placeholder
     link: '#',
     overlayColor: 'bg-black', // Default for other cards
     hasReadMore: false,
@@ -26,7 +26,7 @@ const blogPosts = [
     date: 'AUG 24',
     category: 'DINING, NEWS',
     title: 'Introducing New Restaurants',
-    imageUrl: '/images/blog-new-restaurants.jpg', // Placeholder
+    imageUrl: '/v1.png', // Placeholder
     link: '#',
     overlayColor: 'bg-black',
     hasReadMore: false,
@@ -35,7 +35,7 @@ const blogPosts = [
     date: 'JUN 18',
     category: 'NEWS, SIGHTSEEING, WELLNESS',
     title: 'Infinite Pool is Back',
-    imageUrl: '/images/blog-infinite-pool.jpg', // Placeholder
+    imageUrl: '/b4.jpg', // Placeholder
     link: '#',
     overlayColor: 'bg-black',
     hasReadMore: false,
@@ -44,7 +44,7 @@ const blogPosts = [
     date: 'JUN 17',
     category: 'NEWS, WELLNESS',
     title: 'Tour Tips When Visiting Zermatt',
-    imageUrl: '/images/blog-zermatt-tips.jpg', // Placeholder
+    imageUrl: '/b5.jpg', // Placeholder
     link: '#',
     overlayColor: 'bg-black',
     hasReadMore: false,
@@ -53,7 +53,7 @@ const blogPosts = [
     date: 'JUN 12',
     category: 'NEWS, WELLNESS',
     title: 'Mountain Trail and Fitness Centre',
-    imageUrl: '/images/blog-fitness-center.jpg', // Placeholder
+    imageUrl: '/b6.jpg', // Placeholder
     link: '#',
     overlayColor: 'bg-black',
     hasReadMore: false,
