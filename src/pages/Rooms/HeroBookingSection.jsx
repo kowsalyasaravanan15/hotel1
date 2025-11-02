@@ -10,18 +10,18 @@ const Header = () => {
   return (
     <header className="absolute top-0 left-0 right-0 z-20 text-white p-4 lg:p-6 flex justify-between items-center bg-transparent">
       {/* Logo */}
-      <div className="flex items-center space-x-2">
+      {/* <div className="flex items-center space-x-2">
         <h1 className="text-xl font-serif tracking-widest uppercase">COZYSTAY</h1>
         <span className="text-xs tracking-widest">RESORT</span>
-      </div>
+      </div> */}
 
       {/* Desktop Nav */}
       <nav className="hidden lg:flex space-x-6 text-sm font-medium">
-        <Link href="#" className="hover:text-gray-300">HOME</Link>
+        {/* <Link href="#" className="hover:text-gray-300">HOME</Link> */}
 
         <div className="group relative">
           <button className="flex items-center hover:text-gray-300">
-            ROOMS <ChevronDown className="ml-1 w-3 h-3" />
+            {/* ROOMS <ChevronDown className="ml-1 w-3 h-3" /> */}
           </button>
           {/* Dropdown */}
           <div className="absolute hidden group-hover:block bg-white text-gray-800 rounded-lg mt-2 shadow-md w-40">
@@ -31,15 +31,15 @@ const Header = () => {
           </div>
         </div>
 
-        <Link href="#" className="hover:text-gray-300">PAGES</Link>
-        <Link href="#" className="hover:text-gray-300">BLOG</Link>
+        {/* <Link href="#" className="hover:text-gray-300">PAGES</Link>
+        <Link href="#" className="hover:text-gray-300">BLOG</Link> */}
       </nav>
 
       {/* Contact + Button */}
       <div className="hidden md:flex items-center space-x-4 text-sm font-medium">
-        <span>TEL: +61 73 545 87 88</span>
+        {/* <span>TEL: +61 73 545 87 88</span> */}
         <button className="bg-[#2D453E] hover:bg-[#3D554E] text-white py-2 px-4 text-xs font-semibold uppercase tracking-wider transition-colors duration-200 rounded-md">
-          Reserve Now
+          {/* Reserve Now */}
         </button>
       </div>
 
@@ -59,7 +59,7 @@ const Header = () => {
           <Link href="#" className="hover:text-gray-300">PAGES</Link>
           <Link href="#" className="hover:text-gray-300">BLOG</Link>
           <button className="bg-[#2D453E] hover:bg-[#3D554E] py-2 px-6 text-xs font-semibold uppercase rounded-md">
-            Reserve Now
+            {/* Reserve Now */}
           </button>
         </div>
       )}
