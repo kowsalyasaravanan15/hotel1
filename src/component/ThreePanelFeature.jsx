@@ -21,7 +21,7 @@ const ThreePanelFeature = () => {
 
           {/* Center text panel */}
           <div
-            className="relative h-96 md:h-[600px] bg-cover bg-center text-white flex items-center justify-center p-8"
+            className="relative h-96 md:h-[600px]  bg-100 bg-center text-white flex items-center justify-center p-8"
             style={{ backgroundImage: `url('${imageUrls.center}')` }}
           >
             {/* inga opacity change irruku */}

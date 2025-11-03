@@ -62,7 +62,7 @@ const CozyStayFooter = () => {
               <a href="#" aria-label="Twitter">
                 <Twitter className="w-5 h-5 text-gray-300 hover:text-white transition-colors" />
               </a>
-              <a href="#" aria-label="Instagram">
+              <a href="https://www.instagram.com/kingsukhguesthouse/" aria-label="Instagram">
                 <Instagram className="w-5 h-5 text-gray-300 hover:text-white transition-colors" />
               </a>
               <a href="#" aria-label="Mail">
