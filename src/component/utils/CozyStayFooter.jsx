@@ -33,7 +33,7 @@ const CozyStayFooter = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage: `url('${footerBgImageUrl}')`,
-          backgroundColor: "#5a765a",
+          backgroundColor: "#5a765a",  
         }}
       >
         {/* Overlay for darker tone */}
