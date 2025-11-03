@@ -14,8 +14,8 @@ const activities = [
   {
     title: 'Paddling Tour',
     category: 'Nature',
-     description:
-       'Banff National Park’s biggest lake allows you to paddle for miles and enjoy breathtaking views.',
+    description:
+      'Banff National Park’s biggest lake allows you to paddle for miles and enjoy breathtaking views.',
     price: '₹1000 / person',
     image: '/padding.jpg',
   },
@@ -31,7 +31,8 @@ const activities = [
 
 export default function ActivitiesSection() {
   return (
-    <section className="bg-white -100 py-16 px-4 md:px-8 lg:px-16 text-center">
+    <section data-aos="fade-up"
+      data-aos-duration="3000" className="bg-white -100 py-16 px-4 md:px-8 lg:px-16 text-center">
       <p className="text-sm uppercase tracking-wide text-gray-600 mb-2">
         More than just mountain view
       </p>

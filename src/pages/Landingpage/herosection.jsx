@@ -7,10 +7,10 @@ export default function HeroSection() {
   const [guests, setGuests] = useState("1 Room, 1 Adult, 0 Children");
 
   return (
-    <div className="relative min-h-screen bg-cover bg-center text-white" 
+    <div className="relative min-h-screen bg-cover bg-center text-white"
       style={{ backgroundImage: "url('/ayodhya.webp')" }} // replace with your image
     >
-      
+
 
       {/* Hero Content */}
       <div data-aos="fade-down" className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 md:px-0 bg-black/40">
@@ -19,16 +19,19 @@ export default function HeroSection() {
         </h4>
         <p className="text-sm md:text-base mb-6 text-gray-200">
           Make Yourself At Home
-In Our Guest House.
+          In Our Guest House.
 
         </p>
-        <button className="bg-green-800 text-white px-6 py-3 rounded-md hover:bg-green-700 transition">
-          Enquire Now
-        </button>
+        <a href='https://api.whatsapp.com/send?phone=919007062180' target="_blank">
+          <button className="bg-green-800 text-white px-6 py-3 rounded-md hover:bg-green-700 transition">
+            Enquire Now
+          </button>
+        </a>
+
       </div>
 
       {/* Booking Bar */}
-      <div data-aos="fade-down" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 
+      <div data-aos="fade-up" className="absolute bottom-0 left-1/2 transform -translate-x-1/2 
                       w-[90%] md:w-3/4 bg-white text-gray-900 rounded-xl 
                       shadow-lg flex flex-col md:flex-row items-center justify-between 
                       p-6 md:p-4 space-y-4 md:space-y-0 z-10">

@@ -61,7 +61,7 @@ const chalets = [
 
 const SelectChalet = () => {
   return (
-    <section className="bg-[#e5e6e4] py-20 px-6 md:px-12 text-gray-800">
+    <section data-aos="zoom-out" className="bg-[#e5e6e4] py-20 px-6 md:px-12 text-gray-800">
       <div className="max-w-7xl mx-auto text-center">
         {/* Header */}
         <p className="text-xs uppercase tracking-[0.2em] text-gray-600 mb-2">

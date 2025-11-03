@@ -49,7 +49,8 @@ export default function Navbar() {
           
           <li className="text-gray-600 text-sm">Tel: +91 9007062180</li>
           <Link
-            href="/enquiry"
+            href='https://api.whatsapp.com/send?phone=919007062180'
+            target="blank"
             className="bg-green-800 text-white px-4 py-2 rounded-md hover:bg-green-700 transition"
           >
             Enquire Now
