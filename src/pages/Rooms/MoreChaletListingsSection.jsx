@@ -4,7 +4,8 @@ import ChaletCard from './ChaletCard'; // Assuming ChaletCard.jsx is in the same
 
 // Sample data for the new listings
 const moreChaletData = [
-  {
+{
+  
     title: "Luxury Chalet",
     size: 120,
     guests: 6,
