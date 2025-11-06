@@ -14,7 +14,7 @@ const moreChaletData = [
     description: "The dark wood panelling and furnishings, red-draped four-poster bed, and black stone bathroom evoke the charm of a secluded Sierra Nevada.",
     price: '5000',
     imageUrl: '/luxury.jpg', // Placeholder for the top-left image
-    isSale: null, 
+    isSale: null, // Example sale price
   },
   {
     title: "Meadow Chalet",
@@ -36,7 +36,7 @@ const moreChaletData = [
     description: "Experience breathtaking views from this spacious lodge, featuring modern amenities and rustic charm for an unforgettable getaway.",
     price: '7000',
     imageUrl: '/overlook.jpg', // Placeholder for bottom-left image
-    isSale: null, 
+    isSale: null, // Example sale price
   },
   {
     title: "Lakeside Inn",

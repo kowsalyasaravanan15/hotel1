@@ -17,6 +17,7 @@ const BanffParkExperience = () => {
             Situated in the heart of the Banff National Park, the lodge offers a unique and beautiful mountain retreat. The perfect place to relax after a day of adventures and soak in the park's natural beauty.
           </p>
           <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+
             Our accommodations all feature stunning views, comfortable beds, and all the amenities needed for a memorable stay.
           </p>
         </div>
