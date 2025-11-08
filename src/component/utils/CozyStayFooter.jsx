@@ -22,7 +22,7 @@ const CozyStayFooter = () => {
     "Customer Reviews & Ratings",
     "Travel Tips & Guides",
   ];
-
+   
   // Background image (optional)
   const footerBgImageUrl = "/ayodhya.webp"; // Place inside public/images
 
@@ -34,10 +34,10 @@ const CozyStayFooter = () => {
         style={{
           backgroundImage: `url('${footerBgImageUrl}')`,
           backgroundColor: "#5a765a",  
-        }}
-      >
+        }}  
+      >  
         {/* Overlay for darker tone */}
-        <div className="absolute inset-0 bg-[#5a765a] opacity-90"></div>
+        <div className="absolute inset-0 bg-[#5a765a] opacity-90"></div>    
       </div>
 
       {/* ===== Main Footer Content ===== */}
@@ -150,9 +150,7 @@ const CozyStayFooter = () => {
             © Copyright  KINGSUKH GUEST HOUSE WordPress Theme for Hotel Booking
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-white transition-colors">
-              PRIVACY
-            </a>
+ 
             <a href="#" className="hover:text-white transition-colors">
               TERMS OF USE
             </a>
