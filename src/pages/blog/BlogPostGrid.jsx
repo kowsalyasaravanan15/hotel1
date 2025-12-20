@@ -67,10 +67,7 @@ const BlogPostGrid = () => {
         {blogPosts.map((post, index) => (
           <a href={post.link} key={index} className="group relative block w-full h-96 overflow-hidden cursor-pointer">
             {/* Background Image */}
-            <div
-              className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-              style={{ backgroundImage: `url(${post.imageUrl})` }}
-            ></div>
+  
 
             {/* Overlay */}
             <div className={`absolute inset-0 ${post.overlayColor} opacity-30 group-hover:opacity-80 transition-opacity duration-300`}></div>
@@ -84,7 +81,7 @@ const BlogPostGrid = () => {
 
               {/* Bottom Content */}
               <div className="mt-auto"> {/* Pushes content to the bottom */}
-                <p className="text-xs uppercase tracking-widest text-gray-200 mb-2">
+                <p className="text-xs uppercase tracking-widest text-gray-200 mb-2"> 
                   {post.category}
                 </p>
                 <h3 className="text-xl font-serif leading-tight mb-4 group-hover:text-gray-100 transition-colors duration-200">

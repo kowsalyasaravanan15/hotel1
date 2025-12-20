@@ -37,7 +37,7 @@ const moreChaletData = [
     price: '7000',
     imageUrl: '/overlook.jpg', // Placeholder for bottom-left image
     isSale: null, // Example sale price
-  },
+  }, 
   {
     title: "Lakeside Inn",
     size: 100, // Example
