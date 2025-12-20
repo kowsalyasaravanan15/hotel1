@@ -10,7 +10,7 @@ const blogPosts = [
     title: 'Alpine Scenery in Summer',
     imageUrl: '/b1.jpg', // Placeholder
     link: '#',
-    overlayColor: 'bg-[#536E5F]', // Specific color for this card as per design
+    overlayColor: 'bg-black', // Specific color for this card as per design
     hasReadMore: true,
   },
   {
